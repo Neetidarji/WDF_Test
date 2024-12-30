@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List with Categories</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Todo List </h1>
+        <div class="add-todo">
+            <input type="text" id="todo-input" placeholder="Add a new todo">
+            <input type="date" id="due-date">
+            <select id="category-select">
+                <option value="">Select Category</option>
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+                
+            </select>
+            <button id="add-todo">Add Todo</button>
+        </div>
+        <div class="filters">
+            <select id="filter-category">
+                <option value="">All Categories</option>
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+
+            </select>
+            <select id="sort-by">
+                <option value="date-added">Date Added</option>
+                <option value="due-date">Due Date</option>
+            </select>
+        </div>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

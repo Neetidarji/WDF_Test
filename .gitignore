@@ -1,0 +1,56 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Production
+build/
+dist/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Optional npm cache directory
+.npm
+
+# Test coverage
+coverage/
+
+# Temp files
+tmp/
+temp/
+
+# Package locks (generated)
+package-lock.json
+yarn.lock
+
+# Generated files
+*.min.js
+*.map
+
+# React specific
+public/static/
+
+# Miscellaneous
+*.log
+*.out
+*.pid
+*.seed
+*.pid.lock
